@@ -3,7 +3,7 @@
 UNOGAME est une adaptation numérique du célèbre jeu de cartes **UNO**, développée en Java. Ce projet se distingue par son architecture **Client-Serveur**, permettant à plusieurs joueurs de s'affronter en temps réel via un réseau.
 
 ## 🚀 Présentation
-L'objectif de ce projet est de recréer l'expérience sociale du UNO. Contrairement aux versions classiques contre ordinateur, UNOGAME mise tout sur l'interaction humaine grâce à un système de jeu en ligne. Le projet gère l'intégralité du cycle de vie d'une partie, de la synchronisation des joueurs à l'application stricte des règles du jeu.
+L'objectif de ce projet est de recréer l'expérience sociale du UNO. Contrairement aux versions classiques contre ordinateur, UNOGAME mise tout sur l'interaction humaine grâce à un système de jeu en réseau. Le projet gère l'intégralité du cycle de vie d'une partie, de la synchronisation des joueurs à l'application stricte des règles du jeu.
 
 ## 🌐 Architecture Réseau (Client-Serveur)
 Le cœur du projet repose sur une communication bidirectionnelle :
