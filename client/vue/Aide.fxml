@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox alignment="TOP_CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="289.0" prefWidth="780.0" styleClass="secondaryPane" stylesheets="@../style/StyleSheet.css" xmlns="http://javafx.com/javafx/21">
+   <padding>
+      <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+   </padding>
+      <Label styleClass="mainLabel" text="Règle du Uno" />
+      <Label prefHeight="174.0" prefWidth="749.0" text="Le Uno est un jeu de cartes où le but est d’être le premier à se débarrasser de toutes ses cartes.&#10;Chaque joueur commence avec 7 cartes, et à tour de rôle, chacun pose une carte qui correspond&#10;en couleur ou en chiffre à celle visible sur la pile. S’il ne peut pas jouer, il pioche une carte. Il existe des&#10;cartes spéciales : +2 (le joueur suivant pioche deux cartes), Inversion (change le sens du jeu), Passe&#10;ton tour. Quand il ne reste qu'une carte en main, on doit crier &quot;UNO !&quot; sous peine de piocher deux&#10;cartes si on oublie. La manche se termine quand un joueur n’a plus de cartes, et les autres comptent&#10;leurs points en fonction des cartes qu’il leur reste." textAlignment="CENTER" />
+      <Label styleClass="mainLabel" text="Contact" />
+      <Label alignment="CENTER" prefHeight="74.0" prefWidth="237.0" text="Mail : uno@support.com&#10;Téléphone : +1 1111 1111 11" textAlignment="CENTER" />
+</VBox>

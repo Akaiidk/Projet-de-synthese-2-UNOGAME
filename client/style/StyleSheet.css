@@ -1,0 +1,112 @@
+@font-face {
+    src: url("../ressource/font/Helvetica-Bold.ttf");
+}
+
+.mainPane {
+    -fx-background-image: url(../ressource/images/background.jpg);
+    -fx-background-size: 1000 660;
+}
+
+.secondaryPane {
+    -fx-background-color: #02551d;
+}
+
+.label {
+    -fx-font-family: "Helvetica";
+    -fx-font-size: 15px;
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+}
+
+.list-view {
+    -fx-border-color: white;
+    -fx-border-width: 2px;
+    -fx-background-color: #002c0f;
+}
+
+.list-view .list-cell {
+    -fx-background: transparent;
+    -fx-font-family: "Helvetica";
+    -fx-font-size: 15px;
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+    -fx-text-alignment: justify;
+}
+
+.mainLabel {
+    -fx-font-family: "Helvetica";
+    -fx-font-size: 17px;
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+}
+
+.addOpacity {
+    -fx-background-color: rgba(0, 0, 0, 0.61);
+}
+
+.text-field {
+    -fx-font-family: "Helvetica";
+    -fx-font-size: 15px;
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+    -fx-border-color: white;
+    -fx-border-width: 2px;
+    -fx-background-color: #002c0f;
+}
+
+.mainHBox {
+    -fx-border-color: white;
+    -fx-border-width: 2px;
+    -fx-background-color: #002c0f;
+}
+
+.labelError {
+    -fx-font-family: "Helvetica";
+    -fx-font-size: 15px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #ff0000;
+}
+
+.button {
+    -fx-font-family: "Helvetica";
+    -fx-background-color: black;
+    -fx-font-size: 15px;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-border-color: red;
+    -fx-border-width: 300%;
+    -fx-border-radius: 100%;
+    -fx-background-radius: 100%;
+    -fx-cursor: hand;
+}
+
+.button:pressed {
+    -fx-border-color: #ff9600;
+}
+
+.button-invisible {
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+    -fx-text-fill: transparent;
+    -fx-border-radius: 0%;
+    -fx-background-radius: 0%;
+    -fx-padding: 0px;
+}
+
+.button-invisible:pressed {
+    -fx-background-color: transparent;
+    -fx-border-color: #ff9600;
+    -fx-border-radius: 0%;
+    -fx-border-width: 200%;
+    -fx-background-radius: 0%;
+    -fx-text-fill: transparent;
+    -fx-padding: 0px;
+}
+
+.button-carte-selected {
+    -fx-border-color: red;
+    -fx-border-width: 200%;
+    -fx-border-radius: 0%;
+    -fx-background-radius: 0%;
+    -fx-padding: 0px;
+}
