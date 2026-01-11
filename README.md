@@ -37,7 +37,7 @@ Une interface réactive conçue pour le jeu en ligne :
 
 ### 3. Synchronisation et Sockets
 Le projet utilise les Sockets Java pour une transmission de données rapide :
-* **Protocoles de communication** : Envoi de messages structurés (JSON ou objets sérialisés) pour définir les actions.
+* **Protocoles de communication** : Envoi de messages structurés pour définir les actions.
 * **Multi-threading** : Le serveur utilise des threads pour gérer chaque client simultanément sans bloquer la partie.
 
 ## 📸 Aperçu
