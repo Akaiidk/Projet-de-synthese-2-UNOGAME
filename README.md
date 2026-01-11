@@ -40,6 +40,11 @@ Le projet utilise les Sockets Java pour une transmission de données rapide :
 * **Protocoles de communication** : Envoi de messages structurés (JSON ou objets sérialisés) pour définir les actions.
 * **Multi-threading** : Le serveur utilise des threads pour gérer chaque client simultanément sans bloquer la partie.
 
+## 📸 Aperçu
+<img width="999" height="597" alt="Capture d’écran 2026-01-11 à 03 26 47" src="https://github.com/user-attachments/assets/0e693929-a8ed-493a-b648-c34546cf0d93" />
+<img width="999" height="595" alt="Capture d’écran 2026-01-11 à 03 31 38" src="https://github.com/user-attachments/assets/60f8c7be-d411-4acd-8c21-abbebeae9eb3" />
+<img width="1002" height="599" alt="Capture d’écran 2026-01-11 à 03 30 48" src="https://github.com/user-attachments/assets/a17dbdd4-0aa7-4cfe-bbaf-279b80535b18" />
+
 ## 📁 Structure du Projet
 * `/src/server` : Code source du serveur et gestionnaire de la logique de jeu.
 * `/src/client` : Code source de l'interface JavaFX et de la réception réseau.
