@@ -45,15 +45,5 @@ Le projet utilise les Sockets Java pour une transmission de données rapide :
 * `/src/client` : Code source de l'interface JavaFX et de la réception réseau.
 * `/resources` : Assets graphiques (cartes, icônes) et styles CSS.
 
-## ⚙️ Installation et Lancement
-1.  **Démarrer le Serveur** :
-    ```bash
-    java -cp bin server.UnoServer
-    ```
-2.  **Lancer les Clients** :
-    ```bash
-    java --module-path /path/to/javafx/lib --add-modules javafx.controls,javafx.fxml -cp bin application.Main
-    ```
-
 ---
 *Projet réalisé dans le cadre d'un projet de synthèse informatique sur les systèmes distribués.*
