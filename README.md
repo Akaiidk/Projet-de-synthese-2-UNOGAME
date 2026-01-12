@@ -48,7 +48,7 @@ Le projet utilise les Sockets Java pour une transmission de données rapide :
 ## 📁 Structure du Projet
 * `/src/server` : Code source du serveur et gestionnaire de la logique de jeu.
 * `/src/client` : Code source de l'interface JavaFX et de la réception réseau.
-* `/resources` : Assets graphiques (cartes, icônes) et styles CSS.
+* `/src/client/resources` : Assets graphiques (cartes, icônes) et styles CSS.
 
 ---
 *Projet réalisé dans le cadre d'un projet de synthèse informatique sur les systèmes distribués.*
